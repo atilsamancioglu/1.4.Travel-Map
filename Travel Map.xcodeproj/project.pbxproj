@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC6B7DA01DFF170B00547DA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B7D9F1DFF170B00547DA1 /* AppDelegate.swift */; };
+		FC6B7DA21DFF170B00547DA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B7DA11DFF170B00547DA1 /* ViewController.swift */; };
+		FC6B7DA51DFF170B00547DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6B7DA31DFF170B00547DA1 /* Main.storyboard */; };
+		FC6B7DA81DFF170B00547DA1 /* Travel_Map.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC6B7DA61DFF170B00547DA1 /* Travel_Map.xcdatamodeld */; };
+		FC6B7DAA1DFF170B00547DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6B7DA91DFF170B00547DA1 /* Assets.xcassets */; };
+		FC6B7DAD1DFF170B00547DA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6B7DAB1DFF170B00547DA1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC6B7D9C1DFF170B00547DA1 /* Travel Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6B7D9F1DFF170B00547DA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC6B7DA11DFF170B00547DA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC6B7DA41DFF170B00547DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC6B7DA71DFF170B00547DA1 /* Travel_Map.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Travel_Map.xcdatamodel; sourceTree = "<group>"; };
+		FC6B7DA91DFF170B00547DA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC6B7DAC1DFF170B00547DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC6B7DAE1DFF170B00547DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC6B7D991DFF170B00547DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC6B7D931DFF170B00547DA1 = {
+			isa = PBXGroup;
+			children = (
+				FC6B7D9E1DFF170B00547DA1 /* Travel Map */,
+				FC6B7D9D1DFF170B00547DA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6B7D9D1DFF170B00547DA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC6B7D9C1DFF170B00547DA1 /* Travel Map.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6B7D9E1DFF170B00547DA1 /* Travel Map */ = {
+			isa = PBXGroup;
+			children = (
+				FC6B7D9F1DFF170B00547DA1 /* AppDelegate.swift */,
+				FC6B7DA11DFF170B00547DA1 /* ViewController.swift */,
+				FC6B7DA31DFF170B00547DA1 /* Main.storyboard */,
+				FC6B7DA91DFF170B00547DA1 /* Assets.xcassets */,
+				FC6B7DAB1DFF170B00547DA1 /* LaunchScreen.storyboard */,
+				FC6B7DAE1DFF170B00547DA1 /* Info.plist */,
+				FC6B7DA61DFF170B00547DA1 /* Travel_Map.xcdatamodeld */,
+			);
+			path = "Travel Map";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC6B7D9B1DFF170B00547DA1 /* Travel Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6B7DB11DFF170B00547DA1 /* Build configuration list for PBXNativeTarget "Travel Map" */;
+			buildPhases = (
+				FC6B7D981DFF170B00547DA1 /* Sources */,
+				FC6B7D991DFF170B00547DA1 /* Frameworks */,
+				FC6B7D9A1DFF170B00547DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Travel Map";
+			productName = "Travel Map";
+			productReference = FC6B7D9C1DFF170B00547DA1 /* Travel Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC6B7D941DFF170B00547DA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Atıl Samancıoğlu";
+				TargetAttributes = {
+					FC6B7D9B1DFF170B00547DA1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7CZ8CAJJXF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC6B7D971DFF170B00547DA1 /* Build configuration list for PBXProject "Travel Map" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC6B7D931DFF170B00547DA1;
+			productRefGroup = FC6B7D9D1DFF170B00547DA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC6B7D9B1DFF170B00547DA1 /* Travel Map */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC6B7D9A1DFF170B00547DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6B7DAD1DFF170B00547DA1 /* LaunchScreen.storyboard in Resources */,
+				FC6B7DAA1DFF170B00547DA1 /* Assets.xcassets in Resources */,
+				FC6B7DA51DFF170B00547DA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC6B7D981DFF170B00547DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6B7DA21DFF170B00547DA1 /* ViewController.swift in Sources */,
+				FC6B7DA01DFF170B00547DA1 /* AppDelegate.swift in Sources */,
+				FC6B7DA81DFF170B00547DA1 /* Travel_Map.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC6B7DA31DFF170B00547DA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6B7DA41DFF170B00547DA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC6B7DAB1DFF170B00547DA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6B7DAC1DFF170B00547DA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC6B7DAF1DFF170B00547DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC6B7DB01DFF170B00547DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC6B7DB21DFF170B00547DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CZ8CAJJXF;
+				INFOPLIST_FILE = "Travel Map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atilsamancioglu.Travel-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FC6B7DB31DFF170B00547DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CZ8CAJJXF;
+				INFOPLIST_FILE = "Travel Map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atilsamancioglu.Travel-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC6B7D971DFF170B00547DA1 /* Build configuration list for PBXProject "Travel Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6B7DAF1DFF170B00547DA1 /* Debug */,
+				FC6B7DB01DFF170B00547DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6B7DB11DFF170B00547DA1 /* Build configuration list for PBXNativeTarget "Travel Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6B7DB21DFF170B00547DA1 /* Debug */,
+				FC6B7DB31DFF170B00547DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC6B7DA61DFF170B00547DA1 /* Travel_Map.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC6B7DA71DFF170B00547DA1 /* Travel_Map.xcdatamodel */,
+			);
+			currentVersion = FC6B7DA71DFF170B00547DA1 /* Travel_Map.xcdatamodel */;
+			path = Travel_Map.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC6B7D941DFF170B00547DA1 /* Project object */;
+}
