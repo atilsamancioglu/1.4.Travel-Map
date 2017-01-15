@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC32EF201DFF18C10028FF3C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC32EF1F1DFF18C10028FF3C /* CoreLocation.framework */; };
+		FC32EF221DFF22EE0028FF3C /* InitialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32EF211DFF22EE0028FF3C /* InitialVC.swift */; };
 		FC6B7DA01DFF170B00547DA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B7D9F1DFF170B00547DA1 /* AppDelegate.swift */; };
 		FC6B7DA21DFF170B00547DA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B7DA11DFF170B00547DA1 /* ViewController.swift */; };
 		FC6B7DA51DFF170B00547DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6B7DA31DFF170B00547DA1 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC32EF1F1DFF18C10028FF3C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FC32EF211DFF22EE0028FF3C /* InitialVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialVC.swift; sourceTree = "<group>"; };
 		FC6B7D9C1DFF170B00547DA1 /* Travel Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6B7D9F1DFF170B00547DA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC6B7DA11DFF170B00547DA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +35,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC32EF201DFF18C10028FF3C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC32EF1E1DFF18C10028FF3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC32EF1F1DFF18C10028FF3C /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC6B7D931DFF170B00547DA1 = {
 			isa = PBXGroup;
 			children = (
 				FC6B7D9E1DFF170B00547DA1 /* Travel Map */,
 				FC6B7D9D1DFF170B00547DA1 /* Products */,
+				FC32EF1E1DFF18C10028FF3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +73,7 @@
 				FC6B7D9F1DFF170B00547DA1 /* AppDelegate.swift */,
 				FC6B7DA11DFF170B00547DA1 /* ViewController.swift */,
 				FC6B7DA31DFF170B00547DA1 /* Main.storyboard */,
+				FC32EF211DFF22EE0028FF3C /* InitialVC.swift */,
 				FC6B7DA91DFF170B00547DA1 /* Assets.xcassets */,
 				FC6B7DAB1DFF170B00547DA1 /* LaunchScreen.storyboard */,
 				FC6B7DAE1DFF170B00547DA1 /* Info.plist */,
@@ -141,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC6B7DA21DFF170B00547DA1 /* ViewController.swift in Sources */,
+				FC32EF221DFF22EE0028FF3C /* InitialVC.swift in Sources */,
 				FC6B7DA01DFF170B00547DA1 /* AppDelegate.swift in Sources */,
 				FC6B7DA81DFF170B00547DA1 /* Travel_Map.xcdatamodeld in Sources */,
 			);
@@ -306,6 +322,7 @@
 				FC6B7DB31DFF170B00547DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
